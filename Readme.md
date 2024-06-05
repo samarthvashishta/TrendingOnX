@@ -20,8 +20,8 @@ This project is a web application built with Flask that scrapes trending topics 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/trending-topics-scraper.git
-    cd trending-topics-scraper
+    git clone https://github.com/samarthvashishta/TrendingOnX.git
+    cd TrendingonX
     ```
 
 2. Install the required Python packages:
