@@ -22,7 +22,7 @@ password = 'password@123'
 user = 'sampleuser_name'
 
 # Selenium WebDriver setup
-chrome_driver_path = r'C:\Users\Samarth\TrendingOnX\chromedriver.exe'
+chrome_driver_path = 'chromedriver.exe'
 
 def scrape_trending_topics():
     service = Service(chrome_driver_path)
