@@ -52,16 +52,6 @@ This project is a web application built with Flask that scrapes trending topics 
 
 ## Project Structure
 
-trending-topics-scraper/
-│
-├── app.py
-├── chromedriver.exe
-├── requirements.txt
-└── templates/
-├── index.html
-└── trending.html
-
-
 - `app.py`: The main Flask application that handles scraping and displaying trending topics.
 - `chromedriver.exe`: ChromeDriver executable for Selenium.
 - `requirements.txt`: List of required Python packages.
