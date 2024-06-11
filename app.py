@@ -12,14 +12,14 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # MongoDB Atlas connection
-client = MongoClient("mongodb+srv://sam:sam2002@cluster0.jny4vs4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("client = MongoClient("mongodb+srv://<username>:<password>@<cluster>.mongodb.net/?retryWrites=true&w=majority&appName=<appName>")")
 db = client.trendingtopics
 collection = db.trendingonX
 
-# Credentials
-username = 'samarthvashishta20@gmail.com'
-password = 'password@123'
-user = 'sampleuser_name'
+# X Credentials
+username = 'your_email@gmail.com'
+password = 'your_password'
+user = 'youruser_name'
 
 # Selenium WebDriver setup
 chrome_driver_path = 'chromedriver.exe'
